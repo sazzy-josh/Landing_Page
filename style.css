@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@200;300;400;500;600&family=Montserrat:wght@500;600&display=swap');
+*{
+  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e5e5e5;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+  position: relative;
+  width: 100%;
+
+} ul{
+    font-weight: 500;
+    size: 14px;
+    text-transform: uppercase;
+    width: 400px;
+     display: flex;
+     position: fixed;
+     top: 40px;
+     right: 355px;
+     z-index: 10;
+   
+}
+li{
+    list-style: none;
+    margin: 0 17px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+li:hover{
+    color: rgb(0, 6, 7);
+    background-color: beige;
+    border: 1px solid rgb(211, 187, 187);
+    box-shadow: 0 2px 0.9 rgb(131, 0, 17);
+    padding: 5px;
+    border: none;
+    border-radius: 100px;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.container {
+  width: 100%;  
+}
+
+#rect48{
+position: absolute;
+width: 1250px;
+height: 696px;
+left: 0px;
+top: 0px;
+color: white;
+background: #000000;
+}
+
+#rect68{
+background: #00D285;
+position: absolute;
+width:400px;
+height: 500px;
+right: 0;
+
+}
+#brand{
+    position: absolute;
+    top:3px;
+    left: 50px;
+    color: #e5e5e5;
+    width: 200px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#brand > span{
+     color: #00D285; 
+}
+
+#brand >span #world{
+    font-size: 60px;
+    
+    
+    color: #e5e5e5;
+   
+    
+}
+
+#rect69{
+position: absolute;
+width: 410px;
+height: 383px;
+right: 270px;
+top: 358px;
+background: #00D285;
+border-radius: 10px;
+}
+#image1{
+position: absolute;
+width: 455px;
+height: 521px;
+right: 140px;
+top: 156px;
+}
+#content{
+    width: 800px;
+    position: absolute;
+    top: 35%;
+    left: 97px;
+    padding: 20px;
+}
+#content > h2{
+    height: 110px;
+    font-weight: 700;
+    line-height: 50px;
+    font-size: 53px;
+    
+}
+#content > p{
+    font-size: 14px;
+    line-height: 3;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+#btn{
+    display: flex;
+    justify-content: space-between;
+    width: 47%;
+    margin-top: 20px;
+    
+}
+
+
+#btn1,#btn2{
+    border: none;
+    width: 160px;
+    height: 39px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    /* transition: all 4s ease-in-out;
+    -webkit-transition: all 4s ease-in-out;
+    -moz-transition: all 4s ease-in-out;
+    -ms-transition: all 4s ease-in-out;
+    -o-transition: all 4s ease-in-out; */
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+#btn1:hover,#btn2:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+#btn1{
+    background: #00D285;
+    color: white;
+}
